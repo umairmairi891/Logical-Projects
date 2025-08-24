@@ -1,0 +1,51 @@
+body{
+background-image: repeating-linear-gradient(to right, red, indigo,violet); 
+background-size:200% 100%;
+animation:  gardient-animation 4s linear infinite alternate;
+}
+
+@keyframes gardient-animation {
+    to{
+        background-position: 0% 0%;
+    }
+    from{
+        background-position: 100% 0%;
+    }
+}
+button{
+    width: 100px;
+    text-align: center;
+    background-color: lightsteelblue;
+    margin: 10px;
+    padding: 1px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkblue;
+    transition: background-color .5s ease;
+}
+#lastbtn{
+    width: 50%;
+}
+.sidebar{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: whitesmoke;
+    width: 20%;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    
+}
+input{
+    text-align: right;
+}
+@media (max-width:500px) {
+    button{
+        width: 60px;
+    }
+}

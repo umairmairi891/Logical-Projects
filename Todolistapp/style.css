@@ -1,0 +1,29 @@
+input:focus{
+    outline: none;
+}
+input::placeholder{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+input{
+    text-align: center;
+}
+.list{
+    padding: 10px;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+}
+ul{
+    list-style: none;
+}
+.icon{
+    float: right;
+    justify-content: center;
+    align-items: center;
+}
+.icon2{
+    float: right;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List App</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="/Todolistapp/style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="grid justify-center  ">
+        <div class="card bg-slate-500 max-w-[300px] md:max-w-xl mt-2  shadow-2xl rounded">
+            <div class="text-center text-xl md:text-3xl mt-5 p-2 md:p-5">
+                <h2 class="font-[Popins]">To Do List <span>📝</span></h2>
+                <input id="input" class="w-[280px] md:w-[500px] bg-white mt-3 py-2 md:py-4 rounded-xl" type="text" placeholder="Enter a task">
+                <button class="bg-blue-700 mt-5 px-5 py-1 rounded-xl cursor-pointer font-[Roboto] text-white hover:bg-indigo-950" onclick="makeList()">Add Task</button>
+            </div>
+            <div>
+                <ul  class="ul flex flex-col justify-center px-5 ">
+                  
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/Todolistapp/index.js"></script>
+</html>
