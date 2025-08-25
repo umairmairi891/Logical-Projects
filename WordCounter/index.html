@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="/WordCounter/style.css">
+</head>
+<body>
+    <div class="grid items-center justify-center h-screen">
+        <div class="bg-slate-800 card w-[300px] md:w-[512px] p-5 text-center text-white rounded-xl">
+            <h2 class="text-3xl font-semibold font-[Roboto] text-center mb-5 text-black">Word Calculator</h2>
+            <textarea name="" id="input" cols="30" rows="5" class="bg-white text-center w-full text-xl text-black"></textarea>
+            <button class="bg-purple-800 hover:bg-indigo-700 cursor-pointer px-6 py-2 mt-3 text-center rounded font-semibold" onclick="wordCount()">Count Words</button>
+            <div  class="mt-3 w-full text-white">
+           <span class=" w-full" id="output">0</span>
+           <span id="output2" class="w-full block"></span>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="/WordCounter/index.js">
+
+</script>
+</html>

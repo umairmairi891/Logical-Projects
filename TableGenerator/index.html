@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="/TableGenerator/style.css">
+</head>
+
+<body>
+    <div class="grid  justify-center items-center w-full h-auto ">
+        <div class="card bg-gray-600 max-w-sm md:max-w-lg p-2 md:p-10 mt-3 rounded-xl shadow-2xl">
+            <div class="text-white p-1 text-center flex flex-col items-center ">
+                <h2 class="font-[Roboto] text-xl md:text-3xl">Table Generator</h2>
+                <input id="input" type="number" class="bg-white mt-4 py-5 w-[250px] md:w-[500px] rounded-xl"
+                    placeholder="Enter a number to Generate table">
+                <button class="bg-blue-950 hover:bg-indigo-800 text-lg mt-5 w-[50%] py-2 rounded-xl cursor-pointer" onclick="generateTable()">Generate
+                    Table</button>
+            </div>
+            <div class="flex items-center justify-center w-full">
+                <table id="table" class="text-center w-[300px] mt-5 rounded-xl bg-white px-1">
+                     
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/TableGenerator/index.js"></script>
+
+</html>

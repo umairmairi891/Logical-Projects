@@ -1,0 +1,17 @@
+textarea:focus{
+    outline: none;
+}
+.card{
+    background: linear-gradient(to bottom ,  green,red,yellow,blue, violet);
+    background-size: 100% 200%;
+    animation: animation-gradient 4s linear infinite alternate;
+}
+
+@keyframes animation-gradient {
+    from{
+        background-position: 50% 100%;
+    }
+    to{
+        background-position: 100% 0%;
+    }
+}

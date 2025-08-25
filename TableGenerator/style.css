@@ -1,0 +1,11 @@
+input::placeholder{
+    color: gray;
+    text-align: center;
+}
+input{
+    text-align: center;
+    color: black;
+}
+input:focus{
+    outline: none;
+}
